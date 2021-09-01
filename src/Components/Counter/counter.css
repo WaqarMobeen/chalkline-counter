@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.counter-btns {
+  display: flex;
+  max-width: 320px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.count {
+  font-size: 28px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: #007bff;
+}
+
+.btn-danger {
+  background: #dc3545;
+}
+
+.btn-primary,
+.btn-danger {
+  color: white;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul li:before {
+  content: "•";
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+.counter-history,
+.max-value {
+  margin-top: 25px;
+}
